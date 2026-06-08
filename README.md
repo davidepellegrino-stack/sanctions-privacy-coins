@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sanctions and Privacy Coins
 
 **Do major economic sanctions announcements generate abnormal returns or abnormal trading volumes in privacy-focused cryptocurrencies?**
@@ -81,3 +82,6 @@ python src/robustness.py
 ## Citation
 
 Pellegrino, D. (2026). *Sanctions and Privacy Coins: Do Major Economic Sanctions Announcements Generate Abnormal Returns and Abnormal Trading Volumes in Privacy-Focused Cryptocurrencies?* M1 Thesis, Université Paris 1 Panthéon-Sorbonne.
+=======
+# sanctions-privacy-coins
+>>>>>>> 37d9ae737ac89c26dcb7c488e8ffdef6177a8f4b
