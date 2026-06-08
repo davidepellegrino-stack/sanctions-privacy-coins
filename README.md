@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sanctions and Privacy Coins
 
 **Do major economic sanctions announcements generate abnormal returns or abnormal trading volumes in privacy-focused cryptocurrencies?**
