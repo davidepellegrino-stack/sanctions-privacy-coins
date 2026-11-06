@@ -1,5 +1,7 @@
 # Sanctions and Privacy Coins
 
+![Sanctions and privacy coins: returns did not react, volumes fell about 63% after the EU 6th package](assets/cover.jpg)
+
 **Do major economic sanctions announcements generate abnormal returns or abnormal trading volumes in privacy-focused cryptocurrencies?**
 
 M1 thesis in Financial Economics, Université Paris 1 Panthéon-Sorbonne. Supervised by Prof. Olena Havrylchyk.
@@ -81,6 +83,9 @@ python src/robustness.py
 ## Citation
 
 Pellegrino, D. (2026). *Sanctions and Privacy Coins: Do Major Economic Sanctions Announcements Generate Abnormal Returns and Abnormal Trading Volumes in Privacy-Focused Cryptocurrencies?* M1 Thesis, Université Paris 1 Panthéon-Sorbonne.
-=======
-# sanctions-privacy-coins
->>>>>>> 37d9ae737ac89c26dcb7c488e8ffdef6177a8f4b
+
+## Author
+
+Davide Pellegrino · M2 Financial Economics, Université Paris 1 Panthéon-Sorbonne · [LinkedIn](https://www.linkedin.com/in/pellegrino-davide/)
+
+Other projects: [Portfolio risk analyzer](https://github.com/davidepellegrino-stack/portfolio-risk-analyzer) · [Credit scoring model](https://github.com/davidepellegrino-stack/credit-scoring-model)
