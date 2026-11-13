@@ -6,3 +6,5 @@ __pycache__/
 .DS_Store
 .env
 venv/
+!data/sanctions_events.xlsx
+!data/sanctions_events.csv

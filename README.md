@@ -36,7 +36,8 @@ Privacy coins (Monero, Zcash, Dash) offer protocol-level transaction anonymity. 
 
 ```
 ├── data/                       # Price CSVs + sanctions events Excel
-│   └── sanctions_events.xlsx   # 37 events with dates, severity, direction
+│   ├── sanctions_events.xlsx   # 42 hand-collected events (see data/README.md)
+│   └── sanctions_events.csv    # same table as CSV
 ├── src/
 │   ├── config.py               # All parameters and paths
 │   ├── fetch_data.py           # Download from CoinGecko API
@@ -74,7 +75,7 @@ python src/did_regression.py
 python src/robustness.py
 ```
 
-**Note:** Place your `sanctions_events.xlsx` file in `data/` before running. The events Excel file uses columns: `Date`, `Event ID`, `Direction`, `Severity (1-3)`, `Country`, `Relief Dummy`, `Keep in Sample?`.
+**Note:** The events dataset ships in `data/` (documented in [data/README.md](data/README.md)); price CSVs are downloaded by `src/fetch_data.py`. The events Excel file uses columns: `Date`, `Event ID`, `Direction`, `Severity (1-3)`, `Country`, `Relief Dummy`, `Keep in Sample?`.
 
 ## Data Sources
 - **Prices and volumes:** CoinGecko API (free)
