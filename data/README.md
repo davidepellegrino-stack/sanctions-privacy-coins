@@ -28,7 +28,7 @@ Hand-collected by Davide Pellegrino for the M1 thesis (Université Paris 1 Panth
 
 ## Sample used by the code
 
-`src/event_study.py` and the other scripts keep rows whose "Keep in Sample?" contains KEEP and neither EXCLUDE nor CAUTION. That gives 36 events. Dropped: R01, R06, NK03 (cluster or codification only), R04 (kept for [-1,+1] only in the thesis), I04 and I08 (CAUTION, robustness only).
+The scripts keep rows whose "Keep in Sample?" contains KEEP and neither EXCLUDE nor CAUTION. That gives the thesis estimation sample: 37 events (32 escalations, 5 de-escalations). Five events drop under the 10-day cluster rule or because they add no new policy: R01, R04, R06, NK03 and I04. I08 stays in, flagged for a possible confound with the Soleimani strike.
 
 ## Data-quality caveats
 
